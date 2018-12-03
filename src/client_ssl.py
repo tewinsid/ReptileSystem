@@ -1,5 +1,6 @@
 # coding: utf-8
-import socket, ssl
+import socket
+import ssl
 
 
 def parsed_url(url):
@@ -58,11 +59,11 @@ def get(url):
 
     response = response_by_socket(s)
     r = response.decode(encoding)
-
     status_code, headers, body = parse_by_response(r)
 
-    if status_code == [301, 302]:
+    if status_code in [301, 302]:
         url = headers['Location']
+
         return get(url)
 
     return status_code, headers, body
@@ -116,11 +117,15 @@ def test_parsed_url():
 
 def test_get():
     test_item = [
-        "http://baidu.com",
-        "http://www.baidu.com",
+        # "http://baidu.com",
+        # "http://www.baidu.com",
+        "http://movie.douban.com/top250",
     ]
     for t in test_item:
-        print(get(t))
+        status_code, headers, body = get(t)
+        print(" test_get status_code ", status_code)
+        print(" test_get headers ({})".format(headers))
+        print(" test_get body ", body)
 
 
 def test():
