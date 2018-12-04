@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d0fb7ab-b8e1-4f20-ac0d-b367ff8d93e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/df5b.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/doge.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/test.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client_ssl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/client_ssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utiltool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,48 +29,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client_ssl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="10" />
+            <state relative-caret-position="159">
+              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1109">
+              <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
               <folding>
-                <element signature="e#42#640#0" />
-                <element signature="e#161#211#0" />
-                <element signature="e#283#310#0" />
-                <element signature="e#329#362#0" />
-                <element signature="e#391#439#0" />
-                <element signature="e#513#575#0" />
-                <element signature="e#703#832#0" />
-                <element signature="e#887#1466#0" />
-                <element signature="e#1369#1427#0" />
-                <element signature="e#1355#1606#0" />
-                <element signature="e#1513#1559#0" />
-                <element signature="e#1358#1542#0" />
-                <element signature="e#1418#1524#0" />
-                <element signature="e#663#1170#0" />
-                <element signature="e#746#954#0" />
-                <element signature="e#1092#1170#0" />
-                <element signature="e#2602#2916#0" />
-                <element signature="e#1743#1759#0" />
-                <element signature="e#2624#2645#0" />
-                <element signature="e#2756#2916#0" />
-                <element signature="e#1832#1864#0" />
+                <element signature="e#125#138#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/server.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
               <folding>
-                <element signature="e#16#29#0" expanded="true" />
-                <element signature="e#1203#1301#0" />
-                <element signature="e#1207#1280#0" />
-                <element signature="e#479#486#0" />
-                <element signature="e#1466#1556#0" />
-                <element signature="e#1475#1534#0" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utiltool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/萧井陌后端/03/上课3预习.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -84,6 +95,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -92,6 +112,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>route_dict</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,15 +127,20 @@
         <option value="$PROJECT_DIR$/src/client.py" />
         <option value="$PROJECT_DIR$/src/client_ssl.py" />
         <option value="$PROJECT_DIR$/image/test.out" />
+        <option value="$USER_HOME$/Documents/萧井陌后端/03/上课3预习.py" />
+        <option value="$PROJECT_DIR$/src/route.py" />
+        <option value="$PROJECT_DIR$/src/routes.py" />
+        <option value="$PROJECT_DIR$/utils/utils.py" />
+        <option value="$PROJECT_DIR$/src/utils.py" />
         <option value="$PROJECT_DIR$/src/server.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
-    <option name="width" value="1368" />
-    <option name="height" value="773" />
+    <option name="x" value="275" />
+    <option name="y" value="26" />
+    <option name="width" value="1348" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,11 +160,6 @@
             <path>
               <item name="ReptileSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="ReptileSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ReptileSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReptileSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -150,7 +175,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -257,7 +286,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32923076" />
       <window_info anchor="bottom" id="Python Console" />
@@ -265,7 +294,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,47 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/test.out">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client_ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="10" />
-          <folding>
-            <element signature="e#42#640#0" />
-            <element signature="e#161#211#0" />
-            <element signature="e#283#310#0" />
-            <element signature="e#329#362#0" />
-            <element signature="e#391#439#0" />
-            <element signature="e#513#575#0" />
-            <element signature="e#703#832#0" />
-            <element signature="e#887#1466#0" />
-            <element signature="e#1369#1427#0" />
-            <element signature="e#1355#1606#0" />
-            <element signature="e#1513#1559#0" />
-            <element signature="e#1358#1542#0" />
-            <element signature="e#1418#1524#0" />
-            <element signature="e#663#1170#0" />
-            <element signature="e#746#954#0" />
-            <element signature="e#1092#1170#0" />
-            <element signature="e#2602#2916#0" />
-            <element signature="e#1743#1759#0" />
-            <element signature="e#2624#2645#0" />
-            <element signature="e#2756#2916#0" />
-            <element signature="e#1832#1864#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,18 +325,68 @@
     <entry file="file://$PROJECT_DIR$/image/df5b.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.py">
+    <entry file="file://$USER_HOME$/Documents/萧井陌后端/03/上课3预习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client_ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="99" column="8" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+          <folding>
+            <element signature="e#125#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#16#29#0" expanded="true" />
-            <element signature="e#1203#1301#0" />
-            <element signature="e#1207#1280#0" />
-            <element signature="e#479#486#0" />
-            <element signature="e#1466#1556#0" />
-            <element signature="e#1475#1534#0" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utiltool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
