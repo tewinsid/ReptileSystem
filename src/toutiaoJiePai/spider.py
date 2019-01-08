@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from toutiaoJiePai.config import *
 from requests import RequestException
 import pymongo
+from multiprocessing import Pool
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB]
@@ -119,8 +120,8 @@ def save_image(content):
             f.write(content)
 
 
-def main():
-    html = get_page_index(0, '街拍')
+def main(offset):
+    html = get_page_index(offset, KEYWORD)
     for url in parse_page_index(html):
         if url:
             detail = get_page_detail(url)
@@ -130,4 +131,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    pool = Pool()
+    pool.map(main, [i * 20 for i in range(RANGE_START, RANGE_END)])
